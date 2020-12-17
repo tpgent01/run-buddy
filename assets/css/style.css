@@ -332,7 +332,13 @@ body {
     }
 
     .contact-form button {
-        
+        width: 100%;
+        border: none;
+        background: #fce138;
+        color: #024e76;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 16px;
     }
 
 /* reach out style ends */
