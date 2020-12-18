@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +39,7 @@ body {
         font-size: 36px;
         color: #fce138;
         margin: 0;
-        text-shadow: 0 0 10px rbga(0, 0, 0, 0.5);
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     /* apply styles to header a */
@@ -61,7 +67,7 @@ body {
         padding: 10px 15px;
         font-weight: lighter;
         font-size: 1.55vw;
-        text-shadow: 0 0 10px rbga(0, 0, 0, 0.5);
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     header nav ul li a:hover{
         background: #fce138;
@@ -128,7 +134,7 @@ body {
         font-style: italic;
         font-size: 55px;
         color: #fce138;
-        text-shadow: 0 0 10px rbga(0, 0, 0, 0.5);
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .hero-form {
